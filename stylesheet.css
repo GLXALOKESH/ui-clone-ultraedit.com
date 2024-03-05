@@ -237,7 +237,7 @@ cursor: pointer;
 }
 section{
     background-color: rgb(34, 34, 34);
-    height: 670px;
+    height: 700px;
     /* margin: 50px; */
     padding: 3%;
     color: white;
@@ -264,7 +264,7 @@ margin-top: 130px;
 }
 .section-container1 .box{
     width: 480px;
-    height: 350px;
+    height: 360px;
     /* background-color: green; */
     margin-left: auto;
     padding: 1%;
@@ -276,18 +276,44 @@ margin-top: 130px;
 }
 .section-container1 .box .inner-box{
     background-color: white;
-    height: 90%;
+    height: 300px;
     width: 75%;
     border-radius: 20px;
     padding: 8%;
     color: black;
     box-sizing: border-box;
 }
+.section-container1 .box .inner-box h2 {
+
+    font-size: 22px;
+    text-align: center;
+    font-weight: 450;
+    color: #00B6D1;
+    margin-bottom: 22px;
+}   
+.section-container1 .box .inner-box p {
+
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+}   
+.section-container1 .box .inner-box input {
+
+    height: 45px;
+    width: 99%;
+    font-size: 15px;
+    
+
+}
+.section-container1 .box .inner-box .sign-up {
+
+}
 .section-container2{
     /* background-color: aqua;   */
     margin-top: 50px;
     color: white;
-    height: 270px;
+    height: 350px;
 }
 .section-container2 h2{
     font-weight: 400;
@@ -296,5 +322,6 @@ margin-top: 130px;
     font-size: 22px;
 }
 .section-container2 p{
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 38px;
 }
