@@ -371,15 +371,36 @@ footer{
 }
 .footer-container1{
     display: flex;
-    padding-top: 70px;
+    padding: 70px 30px 10px 30px;
 }
 footer .cl{
     background-color: white;
-    height: 300px;
+    height: 450px;
     width: 250px;
-    margin: 15px;
+    margin: 15px 0px;
     padding: 15px;
+    border: 1px solid;
 }
 .cl h4{
     font-size:0.92rem ;
+    margin: 10px 0px 30px 0;
+}
+.cl ul li {
+    list-style: none;
+    font-size: 0.8rem;
+    margin: 5px 0px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.850);
+}
+.cl ul li:hover {
+color: rgba(0, 0, 0, 0.616);
+}
+footer .cl2{
+    width: 270px;
+}
+footer .cl3{
+    width: 240px;
+}
+footer .cl4{
+    width: 240px;
 }
