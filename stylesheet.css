@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html{
+    height: 100%;
+    width: 100%;
+}
 body {
     display: flex;
     justify-content: center;
@@ -360,5 +364,22 @@ margin-top: 165px;
 /* <---footer part of webpage---> */
 
 footer{
-    
+    width: 100%;
+    background-color: red;
+    font-family: sans-serif;
+
+}
+.footer-container1{
+    display: flex;
+    padding-top: 70px;
+}
+footer .cl{
+    background-color: white;
+    height: 300px;
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+}
+.cl h4{
+    font-size:0.92rem ;
 }
