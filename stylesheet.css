@@ -434,6 +434,7 @@ footer .cl input:focus {
 .subscribe{
     background-color: #00B6D1;
     height: 40px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -444,6 +445,8 @@ footer .cl input:focus {
     font-size: 13.5px;
     font-family:'Segoe UI' ,'roboto', sans-serif;
     cursor: pointer;
+    box-shadow: none;
+    border: none;
 }
 .subscribe:hover{
 
