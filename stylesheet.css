@@ -443,6 +443,7 @@ footer .cl input:focus {
     text-transform: uppercase;
     font-size: 13.5px;
     font-family:'Segoe UI' ,'roboto', sans-serif;
+    cursor: pointer;
 }
 .subscribe:hover{
 
