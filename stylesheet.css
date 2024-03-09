@@ -365,7 +365,7 @@ margin-top: 165px;
 
 footer{
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     font-family: sans-serif;
 
 }
@@ -379,11 +379,11 @@ footer .cl{
     width: 250px;
     margin: 15px 0px;
     padding: 15px;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 .cl h4{
     font-size:0.92rem ;
-    margin: 10px 0px 30px 0;
+    margin: 10px 0px 20px 0;
 }
 .cl ul li {
     list-style: none;
@@ -403,4 +403,49 @@ footer .cl3{
 }
 footer .cl4{
     width: 240px;
+}
+footer .cl p{
+    font-size: 0.8rem;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.850);
+
+}
+footer .cl4 h4{
+    margin: 10px 0px 14px 0;
+    /* padding-left: 5px; */
+
+}
+footer .cl4 {
+    padding-left: 10px;
+}
+footer .cl input {
+    height:40px;
+    border: 1px solid rgba(0, 0, 0, 0.150);
+    border-radius: 5px;
+    padding: 6%;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.811);
+    margin: 5px 0px;
+}
+footer .cl input:focus {
+    outline: none;
+    box-shadow: 0px 0px 2px 4px rgba(12, 173, 173, 0.352);
+}
+.subscribe{
+    background-color: #00B6D1;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13.5px;
+    font-family:'Segoe UI' ,'roboto', sans-serif;
+}
+.subscribe:hover{
+
+    background-color: rgb(3, 164, 189);
+
 }
