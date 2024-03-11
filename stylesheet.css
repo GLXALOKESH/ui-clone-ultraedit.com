@@ -59,11 +59,21 @@ nav p:hover {
 nav .item1 {
     margin-left: 100px;
 }
+nav .menu-icon{
+    height: 20px;
+    margin-left: auto;
+    margin-right: 50px;
+    display: none;
+    &:hover{
+        transform: rotate(90deg);
+        transition: transform 0.3s ease-in-out 0s;
+    }
+}
 
 /* <---Heading---> */
 
 header {
-    height: 320px;
+    height: fit-content;
     /* background-color: red; */
     font-family: 'Roboto', sans-serif;
     /* display: flex; */
@@ -74,7 +84,7 @@ header {
 
 header h1 {
     font-weight: 300;
-    font-size: 50px;
+    font-size: 2.92rem;
     margin-left: 40 px;
 }
 
@@ -375,6 +385,7 @@ footer{
     width: 100%;
     /* background-color: red; */
     font-family: sans-serif;
+    padding-bottom: 50px;
 
 }
 .footer-container1{
@@ -386,7 +397,7 @@ footer{
 }
 footer .cl{
     background-color: white;
-    height: 350px;
+    height: fit-content;
     width: 250px;
     margin: 15px 0px;
     padding: 15px;
@@ -520,4 +531,47 @@ footer .cl input:focus {
     transform: scale(1.1);
     opacity: 0.8;
 
+}
+
+@media screen and (max-width: 800px) {
+    nav :is(p,.image2){
+        display: none;
+    }
+    .container{
+        max-width: 100%;
+    }
+    header .heading {
+        flex-wrap: wrap;
+    }
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .section-container1 .text{
+        margin-top: 40px;
+    }
+
+nav .menu-icon{
+    display: inline-block;
+}
+.footer-container1{
+    flex-wrap: wrap;
+}
+.footer-container2{
+    align-items: center;
+    gap: 1px;
+}
+.footer-container2 .section1{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.footer-container2 .footer-social-icons{
+    margin-right:auto
+}
+footer .cl4 {
+    width: 270px;
+  }
+  .footer-container1 {
+    justify-content: space-between;
+  }
 }
