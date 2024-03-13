@@ -50,6 +50,7 @@ nav .image2 {
 
 nav p {
     margin: 0px 20px;
+    cursor: pointer;
 }
 
 nav p:hover {
