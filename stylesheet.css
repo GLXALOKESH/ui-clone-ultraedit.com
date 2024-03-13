@@ -103,6 +103,7 @@ header div img {
     width: 110px;
     height: 30px;
     margin-top: 25px;
+    cursor: pointer;
 }
 
 .para {
@@ -533,7 +534,7 @@ footer .cl input:focus {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 810px) {
     nav :is(p,.image2){
         display: none;
     }
@@ -574,4 +575,39 @@ footer .cl4 {
   .footer-container1 {
     justify-content: space-between;
   }
+}
+@media screen and (max-width: 413px) {
+
+    nav {
+        height: 70px;
+    }
+    nav .image1{
+        height: 40px;
+        width: 130px;
+        /* margin-left: 10px; */
+    }
+
+header h1 {
+    font-size: 2.4rem;
+}
+header div img {
+    margin-top: 15px;
+}
+.para {
+    font-size: 1.27rem;
+    margin-top: 20px;
+}
+.cards{
+    grid-template-columns: 1fr;
+    height: fit-content;
+}
+.card {
+    width: 70%;
+}
+main{
+    height: max-content;
+}
+footer{
+    padding-bottom: 15px;
+}
 }
