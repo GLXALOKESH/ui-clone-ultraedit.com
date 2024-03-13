@@ -74,6 +74,8 @@ nav .menu-icon{
 /* <---Heading---> */
 
 header {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     /* background-color: red; */
     font-family: 'Roboto', sans-serif;
@@ -399,6 +401,8 @@ footer{
 }
 footer .cl{
     background-color: white;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     width: 250px;
     margin: 15px 0px;
@@ -600,12 +604,16 @@ header div img {
 }
 .cards{
     grid-template-columns: 1fr;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
 }
 .card {
     width: 70%;
 }
 main{
+    height: -webkit-max-content;
+    height: -moz-max-content;
     height: max-content;
 }
 footer{
